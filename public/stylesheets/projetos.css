@@ -1,5 +1,5 @@
 #projetos {
-    background-color:  #090909 ;
+    background-color:  white ;
 }
 
 .projetos {
@@ -19,7 +19,7 @@ button {
     border-radius: 25px;
     cursor: pointer;
     color: white;
-    background-color: purple;
+    background-color: #6001D2;
     border: none;
     transition: ease-in-out 0.3s;
 }
@@ -44,7 +44,7 @@ button:hover {
 }
 
 .pro {
-    background-color: rgb(46, 44, 44);
+    background-color: white;
     height: 195px;
     width: 310px;
     border-radius: 20px;
@@ -57,7 +57,7 @@ button:hover {
 }
 
 .pro div p {
-    font-family: 'Fira Sans', sans-serif;
+    font-family:Red Hat Text;
     font-size: 20px;
     color: black;
 }
@@ -67,7 +67,7 @@ button:hover {
 }
 
 .pro div {
-    background-color: #6001D2(189, 150, 189);
+    background-color:white;
     width: 1000px;
     text-align: center;
     padding: 5% 0;

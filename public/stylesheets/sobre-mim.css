@@ -1,6 +1,6 @@
 #sobre-mim {
     width: 100%;
-    background-color: #040008;
+    background-color: #6001D2;
 }
 
 .ajustador-2 {
@@ -13,7 +13,7 @@
 }
 
 h2 {
-    font-family: 'Special Elite', cursive;
+    font-family:Red Hat Text;
     font-size: 45px;
     color: white;
 }
@@ -90,7 +90,7 @@ h2 {
     text-indent: 30px;
     font-size: 20px;
     max-width: 609.25px;
-    color: white;
+    color: #6001D2;
 }
 
 @media (max-width:1200px) {

@@ -1,0 +1,66 @@
+.letrasprincipais h2{
+width: 170%;
+color: black;
+font-size: 80px;
+
+
+}
+
+.letrasprincipais h3{
+    width: 150%;
+    color: #00CBCF;
+    font-size: 80px;
+   
+    }
+    .letrasprincipais h5{
+        width: 150%;
+        color: black;
+        font-size: 80px;
+        }
+        .letrasprincipais{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        height: 50%;
+        padding:80px;
+        }
+
+.banner{
+    background-color: #00CBCF;
+    text-align: center;
+    border-radius: 12px;
+    width: 100%;
+    background: linear-gradient(63.13deg, gray , #00CBCF );
+}
+
+.banner h2{
+    width: 85%;
+color:white;
+font-size: 40px;
+text-align: center;
+
+}
+.banner p {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+color:white;
+text-align: center;
+
+}
+
+.lancamento > img {
+border-radius: 23px;
+    width: 43%;
+    height: 15%;
+
+}
+
+.lancamento{
+    display: block;
+}
+
+
+
+
