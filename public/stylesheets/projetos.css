@@ -1,5 +1,5 @@
 #projetos {
-    background-color:  white ;
+    background-color:white(53, 5, 53);
 }
 
 .projetos {
@@ -14,18 +14,21 @@
     padding-bottom: 70px;
 }
 
-button {
+.github-link button {
     padding: 10px 100px;
-    border-radius: 25px;
+    border-radius: 4px;
     cursor: pointer;
     color: white;
-    background-color: #6001D2;
+    background-color: #48BAD0;
     border: none;
     transition: ease-in-out 0.3s;
+
+
+    
 }
 
 button:hover {
-    background-color: palevioletred;
+    background-color: #48BAD0;
 }
 
 .github-link {
@@ -44,7 +47,7 @@ button:hover {
 }
 
 .pro {
-    background-color: white;
+    background: white;
     height: 195px;
     width: 310px;
     border-radius: 20px;
@@ -57,9 +60,9 @@ button:hover {
 }
 
 .pro div p {
-    font-family:Red Hat Text;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
-    color: black;
+    color: white;
 }
 
 .pro:hover {
@@ -67,11 +70,11 @@ button:hover {
 }
 
 .pro div {
-    background-color:white;
+   
     width: 1000px;
     text-align: center;
     padding: 5% 0;
-    transform: rotate(-50deg);
+  
 }
 
 .escondido {

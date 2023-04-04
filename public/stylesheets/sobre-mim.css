@@ -1,19 +1,39 @@
 #sobre-mim {
     width: 100%;
-    background-color: #6001D2;
+    background-color: white;
 }
 
-.ajustador-2 {
-    padding: 144px 0;
+
+.oportunidades h4 {
     display: flex;
-    flex-wrap: wrap;
-    gap: 67px;
-    max-width: 1064px;
-    margin: 0 auto;
+    width: 90%;
+    padding: 3px;
+    font-weight: 1000;
+    margin-top: -740px;
+    margin-left: -97px;
+    font-size: 34px;
 }
+.oportunidades h5 {
+    display: flex;
+    width: 90%;
+    margin-left: -97px;
+    padding: 13px;
+    font-weight: 1000;
+    font-size: 34px;
+}
+.oportunidades p {
+    display: flex;
+        display: flex;
+        margin-left: -97px;
+        width: 70%;
+        padding: 13px;
+        font-weight: 100;
+    
+}
+
 
 h2 {
-    font-family:Red Hat Text;
+    font-family: 'Special Elite', cursive;
     font-size: 45px;
     color: white;
 }
@@ -90,7 +110,7 @@ h2 {
     text-indent: 30px;
     font-size: 20px;
     max-width: 609.25px;
-    color: #6001D2;
+    color: white;
 }
 
 @media (max-width:1200px) {
@@ -107,9 +127,7 @@ h2 {
         font-size: 30px;
     }
 
-    .ajustador-2 p {
-        font-size: 15px;
-    }
+   
     .sobre-mim p {
         text-indent: 0;
     }
