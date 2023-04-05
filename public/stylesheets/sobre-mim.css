@@ -9,7 +9,7 @@
     width: 90%;
     padding: 3px;
     font-weight: 1000;
-    margin-top: -740px;
+    margin-top: -940px;
     margin-left: -97px;
     font-size: 34px;
 }
@@ -30,7 +30,11 @@
         font-weight: 100;
     
 }
-
+.notebooks{
+  
+    width: 120%;
+   
+}
 
 h2 {
     font-family: 'Special Elite', cursive;
@@ -77,28 +81,9 @@ h2 {
     }
 }
 
-.html {
-    width: 23%;
-    bottom: 0;
-    left: 0;
-    border-radius: 14px;
-    animation: html 3s infinite linear alternate-reverse ;
-}
 
-.js {
-    width: 22%;
-    bottom: 0;
-    left: 20px;
-    border-radius: 13px;
-}
 
-.css {
-    width: 25%;
-    bottom: 0;
-    left: 300px;
-    border-radius: 14px;
-    animation: css 3s infinite linear alternate-reverse;
-}
+
 
 .sobre-mim{
     display: flex;
