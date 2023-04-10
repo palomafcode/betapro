@@ -10,10 +10,16 @@
 
 .footer {
     width: 100%;
-    background: linear-gradient(145.13deg, #3690E3 );
-   
+   position: absolute;
+    background-color:#2C7AED ;
+    color: white;
 }
-
+.container-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 .footer-conteiner {
     max-width: 1000px;
     margin: 0 auto;

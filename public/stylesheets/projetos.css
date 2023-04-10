@@ -1,9 +1,56 @@
-#projetos {
-    background-color:white(53, 5, 53);
+
+  
+  .background2 .imagens .planta1 {
+    position: absolute;
+    top: 1400px; /* ajuste a posição vertical conforme necessário */
+    left: 50px; /* ajuste a posição horizontal conforme necessário */
+  }
+  
+  .background2 .imagens .mesa {
+    position: absolute;
+    top: 1750px; /* ajuste a posição vertical conforme necessário */
+    left: 90px; /* ajuste a posição horizontal conforme necessário */
+  }
+  .background2 .imagens .grafico {
+    width: 700px;
+    position: absolute;
+    top: 1600px; /* ajuste a posição vertical conforme necessário */
+    left: 90px; /* ajuste a posição horizontal conforme necessário */
+  }
+  .background2 .imagens .planta2 {
+    width: 150px;
+    position: relative;
+    top: 300px; /* ajuste a posição vertical conforme necessário */
+    left: 160px; /* ajuste a posição horizontal conforme necessário */
+  }
+  .background2 .imagens .prateleira {
+    width: 170px;
+    position: relative;
+    top: 390px; /* ajuste a posição vertical conforme necessário */
+    left: 160px; /* ajuste a posição horizontal conforme necessário */
+  }
+  .background2 .imagens .person {
+    width: 350px;
+    position: relative;
+    top: 500px; /* ajuste a posição vertical conforme necessário */
+    left: 100px; /* ajuste a posição horizontal conforme necessário */
+  }
+
+  .video > img{
+    width: 850px;
+    position: relative;
+    top: 1360px; /* ajuste a posição vertical conforme necessário */
+    left: 550px; /* ajuste a posição horizontal conforme necessário */
+  }
+  
+  #projetos {
+    background-color: white;
+ 
 }
 
 .projetos {
-    padding-top: 93px;
+    padding-top: 1600px;
+    padding-bottom: 150px;
 }
 
 .projetos h2, .projetos a {
@@ -11,24 +58,21 @@
 }
 
 .projetos h2 {
-    padding-bottom: 70px;
+    padding-bottom: 190px;
 }
 
-.github-link button {
+button {
     padding: 10px 100px;
-    border-radius: 4px;
+    border-radius: 25px;
     cursor: pointer;
     color: white;
-    background-color: #48BAD0;
+    background-color: white;
     border: none;
     transition: ease-in-out 0.3s;
-
-
-    
 }
 
 button:hover {
-    background-color: #48BAD0;
+    background-color: white;
 }
 
 .github-link {
@@ -46,36 +90,118 @@ button:hover {
     display: inline;
 }
 
-.pro {
-    background: white;
-    height: 195px;
-    width: 310px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    overflow: hidden;
-    transition: ease-in-out 0.3s;
+.pro2 {
+    background-color: white ;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 24px;
+   gap: 10px;
+   width: 83.33px;
+   height: 415px;
+   margin-right: -30px;
+   border: 1px solid gray;
+   border-radius: 13px;
+   flex: none;
+   order: 0;
+   flex-grow: 1; 
+
 }
 
-.pro div p {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 20px;
+.pro1 {
+    background-color: #2C7AED;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 24px;
+   gap: 10px;
+   width: 83.33px;
+   height: 505px;
+   border: 1px solid gray;
+   border-radius: 13px;
+   margin-top: -50px;
+   flex: none;
+   order: 0;
+   flex-grow: 1;
+   
+}
+.pro3 h4 {
+    font-size: 14px;
+    color: black;
+}
+.pro2 h4 {
+    font-size: 14px;
+    color:black;
+}
+.pro1 h4 {
+    font-size: 24px;
     color: white;
+}
+.pro2 h4 {
+    font-size: 14px;
+    color: black;
+}
+.pro1 h2 {
+    font-size: 24px;
+    
+}
+.pro2 h2 {
+    font-size: 14px;
+    color: black;
+    
+}
+.pro3 h2 {
+    font-size: 14px;
+    color: black;
+}
+
+.pro3 {
+    background-color: white ;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 24px;
+   gap: 10px;
+   width: 83.33px;
+   height: 415px;
+   border: 1px solid gray;
+   border-radius: 13px;
+   flex: none;
+   order: 0;
+   flex-grow: 1; 
+   margin-left: -30px;
+
+}
+
+.pro1 div p {
+    width: 283px;
+    height: 48px;
+    color: white;
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 200%;
+
 }
 
 .pro:hover {
     letter-spacing: 5px;
 }
 
-.pro div {
-   
+/* .pro div {
+    background-color: white;
     width: 1000px;
     text-align: center;
     padding: 5% 0;
-  
-}
+    transform: rotate(-50deg);
+} */
 
 .escondido {
     opacity: 0;
@@ -114,3 +240,4 @@ button:hover {
     }
 
 }
+

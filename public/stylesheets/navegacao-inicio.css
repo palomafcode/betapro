@@ -121,12 +121,20 @@ justify-content: space-between;
     width: 70%;
 }
 .background2 > img {
-   width: 885px;
+   width: 900px;
    position: absolute;
-   height: 813.44px;
-   left: 175px;
-   top: 1013px;
+   height: 890px;
+   left: 1px;
+   top: 1350px;
 }
+.background3 > img {
+    width: 800px;
+    position: absolute;
+    height: 890px;
+    left: 1140px;
+    top: 2180px;
+   
+ }
 
 .ajustador {
     display: flex;
