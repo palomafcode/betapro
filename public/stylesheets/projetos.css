@@ -1,67 +1,70 @@
-
-  
-  .background2 .imagens .planta1 {
+/* Estilos comuns para todos os tamanhos de tela */
+.background2 .imagens .planta1 {
     position: absolute;
-    top: 1400px; /* ajuste a posição vertical conforme necessário */
-    left: 50px; /* ajuste a posição horizontal conforme necessário */
+    top: 1400px;
+    left: 50px;
   }
   
   .background2 .imagens .mesa {
     position: absolute;
-    top: 1750px; /* ajuste a posição vertical conforme necessário */
-    left: 90px; /* ajuste a posição horizontal conforme necessário */
+    top: 1750px;
+    left: 90px;
   }
+  
   .background2 .imagens .grafico {
     width: 700px;
     position: absolute;
-    top: 1600px; /* ajuste a posição vertical conforme necessário */
-    left: 90px; /* ajuste a posição horizontal conforme necessário */
+    top: 1600px;
+    left: 90px;
   }
+  
   .background2 .imagens .planta2 {
     width: 150px;
     position: relative;
-    top: 300px; /* ajuste a posição vertical conforme necessário */
-    left: 160px; /* ajuste a posição horizontal conforme necessário */
+    top: 300px;
+    left: 160px;
   }
+  
   .background2 .imagens .prateleira {
     width: 170px;
     position: relative;
-    top: 390px; /* ajuste a posição vertical conforme necessário */
-    left: 160px; /* ajuste a posição horizontal conforme necessário */
+    top: 390px;
+    left: 160px;
   }
+  
   .background2 .imagens .person {
     width: 350px;
     position: relative;
-    top: 500px; /* ajuste a posição vertical conforme necessário */
-    left: 100px; /* ajuste a posição horizontal conforme necessário */
+    top: 500px;
+    left: 100px;
   }
-
-  .video > img{
+  
+  .video > img {
     width: 850px;
     position: relative;
-    top: 1360px; /* ajuste a posição vertical conforme necessário */
-    left: 550px; /* ajuste a posição horizontal conforme necessário */
+    top: 1680px;
+    left: 550px;
   }
   
   #projetos {
     background-color: white;
- 
-}
-
-.projetos {
+  }
+  
+  .projetos {
     padding-top: 1600px;
     padding-bottom: 150px;
-}
-
-.projetos h2, .projetos a {
+  }
+  
+  .projetos h2,
+  .projetos a {
     text-align: center;
-}
-
-.projetos h2 {
+  }
+  
+  .projetos h2 {
     padding-bottom: 190px;
-}
-
-button {
+  }
+  
+  button {
     padding: 10px 100px;
     border-radius: 25px;
     cursor: pointer;
@@ -69,13 +72,13 @@ button {
     background-color: white;
     border: none;
     transition: ease-in-out 0.3s;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: white;
-}
-
-.github-link {
+  }
+  
+  .github-link {
     margin: 0 auto;
     padding-top: 35px;
     padding-bottom: 93px;
@@ -84,160 +87,111 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 35px;
-}
-
-.projetos a {
+  }
+  
+  .projetos a {
     display: inline;
-}
-
-.pro2 {
-    background-color: white ;
-   box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: flex-start;
-   padding: 24px;
-   gap: 10px;
-   width: 83.33px;
-   height: 415px;
-   margin-right: -30px;
-   border: 1px solid gray;
-   border-radius: 13px;
-   flex: none;
-   order: 0;
-   flex-grow: 1; 
-
-}
-
-.pro1 {
+  }
+  
+  .pro2 {
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+    width: 83.33px;
+    height: 415px;
+    margin-right: -30px;
+    border: 1px solid gray;
+    border-radius: 13px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  
+  .pro1 {
     background-color: #2C7AED;
-   box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: flex-start;
-   padding: 24px;
-   gap: 10px;
-   width: 83.33px;
-   height: 505px;
-   border: 1px solid gray;
-   border-radius: 13px;
-   margin-top: -50px;
-   flex: none;
-   order: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+    width: 83.33px;
+    height: 505px;
+    border: 1px solid gray;
+    border-radius: 13px;
+    margin-top: -50px;
+    flex: none;
+    order: 0;
    flex-grow: 1;
    
 }
-.pro3 h4 {
-    font-size: 14px;
-    color: black;
-}
-.pro2 h4 {
-    font-size: 14px;
-    color:black;
-}
-.pro1 h4 {
-    font-size: 24px;
-    color: white;
-}
-.pro2 h4 {
-    font-size: 14px;
-    color: black;
-}
-.pro1 h2 {
-    font-size: 24px;
-    
-}
-.pro2 h2 {
-    font-size: 14px;
-    color: black;
-    
-}
-.pro3 h2 {
-    font-size: 14px;
-    color: black;
-}
-
 .pro3 {
-    background-color: white ;
-   box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: flex-start;
-   padding: 24px;
-   gap: 10px;
-   width: 83.33px;
-   height: 415px;
-   border: 1px solid gray;
-   border-radius: 13px;
-   flex: none;
-   order: 0;
-   flex-grow: 1; 
-   margin-left: -30px;
-
-}
-
-.pro1 div p {
-    width: 283px;
-    height: 48px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2vw; /* usando unidade de medida relativa /
+    gap: 1vw; / usando unidade de medida relativa /
+    width: 20vw; / usando unidade de medida relativa /
+    height: 40vh; / usando unidade de medida relativa /
+    border: 1px solid gray;
+    border-radius: 2vw; / usando unidade de medida relativa /
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-left: -10vw; / usando unidade de medida relativa */
+    
+    }
+    
+    .pro1 div p {
+    width: 60vw; /* usando unidade de medida relativa /
+    height: 8vw; / usando unidade de medida relativa /
     color: white;
     font-family:'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 2vw; / usando unidade de medida relativa */
     line-height: 200%;
-
-}
-
-.pro:hover {
-    letter-spacing: 5px;
-}
-
-/* .pro div {
-    background-color: white;
-    width: 1000px;
+    
+    }
+    
+    .nossosplanos h6 {
+    font-size: 4vw; /* usando unidade de medida relativa /
+    font-weight: 900;
+    color: #0B1F3B;
+    margin-bottom: 10vh; / usando unidade de medida relativa */
+    align-items: center;
     text-align: center;
-    padding: 5% 0;
-    transform: rotate(-50deg);
-} */
-
-.escondido {
-    opacity: 0;
-    display: none;
-    transition: 1000ms;
-}
-
-.projetos-itens {
+    }
+    
+    .nossosplanos p {
+    font-size: 2vw; /* usando unidade de medida relativa /
+    margin-bottom: 20vh; / usando unidade de medida relativa */
+    text-align: center;
+    width: 100%;
+    }
+    
+    .projetos-itens {
     display: flex;
     flex-wrap: wrap;
-    gap: 29.5px;
+    gap: 3vw; /* usando unidade de medida relativa */
     width: 100%;
     justify-content: center;
-}
-
-@media (max-width:1200px) {
-  .projetos{
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-  }
-
-  #projetos {
-      display: flex;
-      justify-content: center;
-  }
-
-  .projetos-itens {
-      flex-direction: column;
-  }
-
-}
-@media (max-width:950px) {
-    .pro {
-        max-width: 300px;
     }
-
+    
+    @media (max-width: 1200px) {
+    .pro1, .pro3 {
+    width: 40vw;
+    height: 30vh;
+    margin-top: -5vh;
+    margin-left: 0;
+    }
 }
-

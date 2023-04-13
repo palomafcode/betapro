@@ -78,6 +78,7 @@ justify-content: space-between;
     margin-top: -350px;
    
 }
+
 .faleconosco button{
     width: 140%;
     height: 70%;
@@ -205,14 +206,7 @@ margin-top: 400px;
     grid-area: desenho;
 }
 
-@keyframes desenhoAnimacao {
-    from {
-        top:-15px;
-    }
-    to {
-        top: 25px;
-    }
-}
+
 
 .desenho2 {
     position:relative;
@@ -231,14 +225,7 @@ margin-top: 400px;
     animation: pisca .7s infinite;
 }
 
-@keyframes pisca {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
+
 
 @media (max-width:1200px) {
     
