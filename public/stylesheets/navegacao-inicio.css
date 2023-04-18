@@ -78,7 +78,6 @@ justify-content: space-between;
     margin-top: -350px;
    
 }
-
 .faleconosco button{
     width: 140%;
     height: 70%;
@@ -122,18 +121,18 @@ justify-content: space-between;
     width: 70%;
 }
 .background2 > img {
-   width: 900px;
+   width: 990px;
    position: absolute;
-   height: 890px;
+   height: 990px;
    left: 1px;
    top: 1350px;
 }
 .background3 > img {
-    width: 800px;
+    width: 1020px;
     position: absolute;
-    height: 890px;
-    left: 1140px;
-    top: 2180px;
+    height: 990px;
+    left: 1356px;
+    top: 2480px;
    
  }
 
@@ -206,7 +205,14 @@ margin-top: 400px;
     grid-area: desenho;
 }
 
-
+@keyframes desenhoAnimacao {
+    from {
+        top:-15px;
+    }
+    to {
+        top: 25px;
+    }
+}
 
 .desenho2 {
     position:relative;
@@ -225,7 +231,14 @@ margin-top: 400px;
     animation: pisca .7s infinite;
 }
 
-
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
 
 @media (max-width:1200px) {
     

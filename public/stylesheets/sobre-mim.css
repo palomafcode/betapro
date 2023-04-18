@@ -4,19 +4,20 @@
 }
 
 
+
 .oportunidades h4 {
     display: flex;
     width: 90%;
     padding: 3px;
     font-weight: 1000;
-    margin-top: -940px;
+    margin-top: -1040px;
     margin-left: -97px;
     font-size: 34px;
 }
 .oportunidades h5 {
     display: flex;
     width: 90%;
-    margin-left: -97px;
+    margin-left: -107px;
     padding: 13px;
     font-weight: 1000;
     font-size: 34px;
@@ -133,4 +134,3 @@ h2 {
     }
 
 }
-    
